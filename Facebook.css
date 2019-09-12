@@ -75,7 +75,8 @@ img {
   width: 100%;
   height: 240px !important;
   height: unset;
-  background: url("https://scontent.faal2-1.fna.fbcdn.net/v/t31.0-0/c0.62.960.355a/p480x480/19575079_10103832396388711_8894816584589808440_o.jpg?_nc_cat=109&_nc_oc=AQmzPK-yBr8SDHyYGSNnRTAJoqMC8ss7OLihcGgLmJqegtQSz7rzLE-4Z3vyTBsSdak&_nc_ht=scontent.faal2-1.fna&oh=657b28e08742dfa814f7c8f7a3d3c77c&oe=5E12A228") !important;
+  /*background: url("https://scontent.faal2-1.fna.fbcdn.net/v/t31.0-0/c0.62.960.355a/p480x480/19575079_10103832396388711_8894816584589808440_o.jpg?_nc_cat=109&_nc_oc=AQmzPK-yBr8SDHyYGSNnRTAJoqMC8ss7OLihcGgLmJqegtQSz7rzLE-4Z3vyTBsSdak&_nc_ht=scontent.faal2-1.fna&oh=657b28e08742dfa814f7c8f7a3d3c77c&oe=5E12A228") !important;*/
+  background: #304886 !important;
   text-shadow: 0 0 6px #000, 0 0 3px #000;
   color: #fff;
   border: 1px solid #dddfe2 !important;
@@ -167,4 +168,9 @@ h2#name.uName {
 
 .tableLeft, .tableRight {
   background: none;
+}
+
+
+#commentInput {
+  border: 1px solid #bbb;
 }
