@@ -14,7 +14,7 @@ Apply a theme by coping the text into the "CSS" box on your profile.
 
 **Lounge**
   
-  @import url("https://myspace93.github.io/Lounge.css")
+    @import url("https://myspace93.github.io/Lounge.css")
 
 
 ## Other
