@@ -1,11 +1,11 @@
-# Myspace Windows93 Themes
+# Myspace Themes
 
 Themes for http://myspace.windows93.net
 
 
 ## Use
 
-Apply a theme by coping the text into the "CSS" box on your profile.
+Apply a theme by copying the text into the "CSS" box on your profile.
 
 
 **Facebook**
@@ -22,5 +22,6 @@ Apply a theme by coping the text into the "CSS" box on your profile.
 
 
 ## Other
+
 
 I'm not affiliated with Myspace or Windows93.

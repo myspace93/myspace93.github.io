@@ -128,7 +128,7 @@ img {
   font-size: 14px;
 }
 
-.topLeft div:first-child {
+h2#name.uName {
   position: relative;
   display: inline-block;
   height: 0;
