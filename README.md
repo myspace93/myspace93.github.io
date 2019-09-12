@@ -10,15 +10,15 @@ Apply a theme by copying the text into the "CSS" box on your profile.
 
 **Facebook**
 
-    @import url("https://myspace93.github.io/Facebook.css")
+    @import url("https://myspace93.github.io/Facebook.css");
 
 **Lounge**
   
-    @import url("https://myspace93.github.io/Lounge.css")
+    @import url("https://myspace93.github.io/Lounge.css");
 
 **Windows95**
 
-    @import url("https://myspace93.github.io/Win95.css")
+    @import url("https://myspace93.github.io/Win95.css");
 
 
 ## Other
