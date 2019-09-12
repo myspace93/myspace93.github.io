@@ -1,0 +1,141 @@
+@keyframes example {
+  7%    {opacity: 0.1;}
+  80% {opacity: 1.0;}
+  100% {opacity: .1;}
+}
+body{
+  cursor:help;background: #009395;
+}
+
+
+.blurbs, #top, #box, .box, #header, #hSub, button {
+  background-color: white;
+  color: black;
+  padding-right: 2px;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  blox-shadow: 1px 0 #000,0 1px #000,1px 1px #000,inset 1px 1px #fff,0 0 150px 1px rgba(255,0,255,.5);
+  box-shadow: 1px 0 #000, 0 1px #000, 1px 1px #000, inset 1px 1px #fff;
+  background-color: silver;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: #000;
+}
+
+*:after {
+  // content: " Pajeet is my hero";
+}
+
+.rightHead, .boxHead {
+  background: linear-gradient(135deg,#000178 0,#1180D1 100%);
+  color: #fff;
+  font-weight: none;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(6px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-6px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(6px, 0, 0);
+  }
+}
+
+.fwiendFace {
+  background: url(https://66.media.tumblr.com/1e526ee434f94d0e0faa94eb250aaf8b/tumblr_o1rzpey14q1v1b8nao4_250.gif) no-repeat;
+  height: 130px;
+  background-size: 64px;
+  background-position: center;
+}
+
+.fwiendFace img {
+  opacity: 0.1;
+}
+
+
+.url.box a {
+  display: none;
+}
+
+.url.box {
+  animation: bootAndClippy 3s steps(1) none;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bootAndClippy {
+  from {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1ebab8b-2b0b-4d87-a313-481d83d85afa/d8vvnwm-961aa00d-a7de-4e2f-9c0f-4fc195455663.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxZWJhYjhiLTJiMGItNGQ4Ny1hMzEzLTQ4MWQ4M2Q4NWFmYVwvZDh2dm53bS05NjFhYTAwZC1hN2RlLTRlMmYtOWMwZi00ZmMxOTU0NTU2NjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.c11TQgmL9M3yIjWOyORGPBBSkJWTU59ParTbSDtRXYI) #000;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    top: 0;
+    left: 0;
+    color: #ffffff00;
+    border: none;
+    box-shadow: none;
+    filter: drop-shadow(8px 9px 15px #00000044);
+    z-index: 1000;
+  }
+
+  to {
+    background: url(http://vignette1.wikia.nocookie.net/joke-battles/images/c/cb/Clippy.png/revision/latest?cb=20151209031540) no-repeat;
+    background-size: 140px;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    color: #ffffff00;
+    height: 131px;
+    width: 150px;
+    z-index: 100;
+    animation: shake 2s infinite;
+    border: none;
+    box-shadow: none;
+    filter: drop-shadow(8px 9px 15px #00000044);
+    z-index: 1000;
+  }
+}
+
+#hSub {
+  background: url(https://i.imgur.com/pUn7pAu.png) #D4D1CC !important;
+  border-bottom: 1px solid #ccc !important;
+  padding-bottom: 8px !important;
+}
+
+#hSub a {
+  color: #000;
+}
+
+
+.tableRight {
+  word-break: break-word !important;
+}
+
+img[src*="https://stallman.org/photos/rms-working/img_2363.jpg"] { 
+text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png") no-repeat;
+  width: 227px;
+  height: 29px; 
+  padding-left: 227px; 
+}

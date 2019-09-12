@@ -16,6 +16,10 @@ Apply a theme by coping the text into the "CSS" box on your profile.
   
     @import url("https://myspace93.github.io/Lounge.css")
 
+**Windows95**
+
+    @import url("https://myspace93.github.io/Win95.css")
+
 
 ## Other
 
