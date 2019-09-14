@@ -1,0 +1,131 @@
+/* PornHub */
+
+body {
+  background: #000;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+
+h4 {
+  color: #fff;
+  margin: 0;
+}
+
+* {
+  color: #999;
+}
+
+button, input[type=submit] {
+  padding: 5px;
+  background: #101010;
+  color: #aaa;
+  border: 1px solid #2b2b2b;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+a, a h3, .boxInfo a div, .fwiendFace b {
+  color: #f90;
+}
+
+.blurbs, #box, .box, #header, #hSub, #commentInput {
+  background: #101010;
+  border: 1px solid #2b2b2b;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.box > :not(#form) {
+  padding: 7px;
+}
+
+#form > {
+  padding: 7px;
+}
+
+.url.box a {
+  color: #aaa !important;
+}
+
+.rightHead, .boxHead {
+  background: #0D0D0D;
+  padding: 7px;
+  border-bottom: 1px solid #1b1b1b;
+}
+
+.rightHead b, .rightHead span, .boxHead b, .box.url b {
+  color: #fff;
+}
+
+#avatar {
+  border: 2px solid #000 !important;
+}
+
+.logo b span {
+  display: none;
+}
+
+.logo b:before {
+  position: relative;
+  bottom: 2px;
+  font-size: 24px;
+  content: "Porn";
+  color: #fff;
+}
+
+.logo b:after {
+  position: relative;
+  bottom: 2px;
+  font-size: 20px;
+  content: "Hub Premium";
+  color: #FF9900;
+}
+
+#hSub {
+  top: 35px !important;
+}
+
+#header, #hSub {
+  background: #24292e;
+  padding: 6px !important;
+  background: #1b1b1b !important;
+  border-bottom: 1px solid #242424 !important;
+  position: absolute !important;
+}
+
+div#hSub a:first-child {
+  border-bottom: 2px solid #f90;
+  padding-bottom: 7px;
+}
+
+#name {
+  color: #fff;
+}
+
+/* Comments */
+
+.tableLeft {
+  background: none;
+  width: 20% !important;
+}
+
+.tableRight {
+  background: none;
+}
+
+.tableLeft img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.date {
+  color: #505050;
+}
+
+.tableLeft a div b {
+  color: #f90;
+  float: left;
+  margin-bottom: 7px !important;
+}
