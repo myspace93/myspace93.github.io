@@ -8,7 +8,7 @@ Themes for http://myspace.windows93.net
 Apply a theme by copying the text into the "CSS" box on your profile.
 
 
-### Themes
+## Themes
 
 **Facebook**
 
@@ -27,7 +27,7 @@ Apply a theme by copying the text into the "CSS" box on your profile.
     @import url("https://myspace93.github.io/PornHub.css");
 
 
-### Modules
+## Modules
 
 With modules you can combine designs in a new way.
 
