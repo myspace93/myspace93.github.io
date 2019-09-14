@@ -23,10 +23,6 @@ body{
   color: #000;
 }
 
-*:after {
-  // content: " Pajeet is my hero";
-}
-
 .rightHead, .boxHead {
   background: linear-gradient(135deg,#000178 0,#1180D1 100%);
   color: #fff;
@@ -128,14 +124,4 @@ body{
 
 .tableRight {
   word-break: break-word !important;
-}
-
-img[src*="https://stallman.org/photos/rms-working/img_2363.jpg"] { 
-text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important; 
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: url("https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png") no-repeat;
-  width: 227px;
-  height: 29px; 
-  padding-left: 227px; 
 }
