@@ -1,0 +1,37 @@
+/* PewDiePie Header */
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+#header, #hSub {
+  font-family: 'Lato', sans-serif;
+  position: absolute !important;
+}
+
+#header {
+  background: url("https://b.thumbs.redditmedia.com/Wb7kWrKBSbjM0AMHaEzHh0Amrnnw3lstOiaxYNp_SZM.png") #0E0B2A !important;
+  height: 80px !important;
+  border-bottom: none !important;
+  box-shadow: 0 0 13px -3px #000 !important;
+}
+
+.logo span {
+  padding-top: 33px !important;
+  font-size: 20px;
+}
+
+#hSub {
+  background: rgba(0,0,0,0.24) !important;
+  color: transparent !important;
+  margin-top: 33px !important;
+}
+
+#hSub a {
+  font-size: 14px;
+  color: #ffffffdd;
+  height: unset !important;
+  margin-right: 1px;
+}
+
+#container {
+  margin-top: 30px;
+}
