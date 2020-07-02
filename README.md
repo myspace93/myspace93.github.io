@@ -31,8 +31,6 @@ Apply a theme by copying the text into the "CSS" box on your profile.
 
 With modules you can combine designs in a new way.
 
-*Work in progress*
-
 **PewDiePie Header**
 
     @import url("https://myspace93.github.io/modules/pew-header.css");
