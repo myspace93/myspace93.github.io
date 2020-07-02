@@ -75,7 +75,7 @@ body{
   animation-fill-mode: forwards;
 }
 
-@keyframes bootAndClippy {
+/*@keyframes bootAndClippy {
   from {
     background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1ebab8b-2b0b-4d87-a313-481d83d85afa/d8vvnwm-961aa00d-a7de-4e2f-9c0f-4fc195455663.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QxZWJhYjhiLTJiMGItNGQ4Ny1hMzEzLTQ4MWQ4M2Q4NWFmYVwvZDh2dm53bS05NjFhYTAwZC1hN2RlLTRlMmYtOWMwZi00ZmMxOTU0NTU2NjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.c11TQgmL9M3yIjWOyORGPBBSkJWTU59ParTbSDtRXYI) #000;
     background-position: center;
@@ -110,7 +110,7 @@ body{
     z-index: 1000;
   }
 }
-
+*/
 #hSub {
   background: url(https://i.imgur.com/pUn7pAu.png) #D4D1CC !important;
   border-bottom: 1px solid #ccc !important;
